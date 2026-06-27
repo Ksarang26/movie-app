@@ -8,7 +8,7 @@ import asyncHandler from '../middlewares/asyncHandler.js'
 
 const authenticate = asyncHandler(async (req, res, next) => {
     let token;
-
+    token = req.cookies.jwt;
     //Read JWT from the 'jwt' cookie
 
     if(token) {
@@ -25,7 +25,6 @@ const authenticate = asyncHandler(async (req, res, next) => {
     }else {
 
         res.status(401)
-
         throw new Error('Not authorized, token failed')
     }
 })
