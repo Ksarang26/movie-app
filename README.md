@@ -74,6 +74,18 @@ README.md
 * Fixed JWT verification issues
 * Improved backend error handling
 
+### Day 4 - Redux Toolkit & RTK Query
+
+- Configured Redux Toolkit Store
+- Created Authentication Slice
+- Implemented Redux Provider
+- Set up RTK Query
+- Configured React Router
+- Created Initial Application Routing
+- Integrated Toast Notifications
+- Configured Vite Proxy for Backend API
+- Learned Global State Management with Redux Toolkit
+
 ---
 
 ## 🎯 Upcoming Features
